@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
  Student at BYU studying Data Science. Hoping to learn and to help.
 baseurl: "/stat386-projects" # keep this the same or change it to the name of the repository 
 url: "https://jdradandt.github.io" #  change this to "https://<your-github-username>.github.io"
-image: "assets/images/image5.jpg"
+image: "assets/images/data_science.jpg"
 author: Jackson Radandt
 copyright: JDR # Your initials or what you want the copyright to be.  Leave empty for no copyright
 
