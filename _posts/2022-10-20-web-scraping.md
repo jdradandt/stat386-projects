@@ -11,9 +11,9 @@ October is a great month for sports fans. Football season is in full swing, NBA 
 
 ### Where to get the data
 The first question we have to answer is where can we get this data? And will you be shocked when I tell you that I just did a Google search?
-![Google search](/assets/images/Screen Shot 2022-10-18 at 7.35.26 PM.png)
+![Google search](https://raw.githubusercontent.com/jdradandt/stat386-projects/main/assets/images/Screen%20Shot%202022-10-18%20at%207.35.26%20PM.png)
 5.59 million results! Looks like it shouldn't be too hard to find data. The first link is for ESPN, a trustworthy source for sports data. Let's see how it looks:
-![ESPN table](/assets/images/Screen Shot 2022-10-18 at 7.55.40 PM.png)
+![ESPN table](https://raw.githubusercontent.com/jdradandt/stat386-projects/main/assets/images/Screen%20Shot%202022-10-18%20at%207.55.40%20PM.png)
 This looks great. It has info on home games, road games, and overall numbers for each team, and there are multiple years of data. This should be perfect for our analysis.
 
 #### Make sure data can legally be used
