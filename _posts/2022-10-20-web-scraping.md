@@ -30,5 +30,5 @@ import numpy as np
 import pandas as pd
 from functools import reduce
 ```
-If we inspect the HTML of our webapage, we will see that each table is under a <table> tag. This means we can use `pd.read_html()` to read in this data. The next thing we need are the URLs for each year we want. 
+If we inspect the HTML of our webapage, we will see that each table is under a `<table>` tag. This means we can use `pd.read_html()` to read in this data. The next thing we need are the URLs for each year we want. 
 
