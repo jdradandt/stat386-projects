@@ -92,6 +92,6 @@ ballparks = reduce(lambda  left,right: pd.merge(left,right,on=['TEAM'], how='out
 ballparks.drop(ballparks.tail(1).index,inplace=True) # drop last row that has no data
 ```
 
-And that's it! We have gathered data from 2012-2022 for each MLB team, and cleaned it to make it easier to work with. Next blog post will be an EDA where we will perform some analysis on this data to see which team has the best home field advatage, check back in for it!
+And that's it! We have gathered data from 2012-2022 for each MLB team, and cleaned it to make it easier to work with. Next blog post will be an EDA where we will perform some analysis on this data to see which team has the best home field advantage, check back in for it!
 
 Check out the code and final dataset in [this repo](https://github.com/jdradandt/mlb_ballpark_analysis.git).
