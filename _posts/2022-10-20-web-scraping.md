@@ -24,5 +24,11 @@ This looks great. It has info on home games, road games, and overall numbers for
 We need to make sure that it is okay for this data to be scraped from ESPN. I did some previous research and ESPN fully supports scraping data from it's webpage. In fact, ESPN's API can be found [here](http://www.espn.com/apis/devcenter/docs/) if you want to get some more data for yourself.
 
 ### Get the data into a dataframe
-Now we get to 
+Now we get to scrape the data and put it into a dataframe. First thing to do is import the packages we need into our Python enviornment.
+```
+import numpy as np
+import pandas as pd
+from functools import reduce
+```
+If we inspect the HTML of our webapage, we will see that each table is under a <table> tag. This means we can use `pd.read_html()` to read in this data. The next thing we need are the URLs for each year we want. 
 
